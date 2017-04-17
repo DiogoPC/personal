@@ -14,7 +14,7 @@
        }
 
         .navbar {
-            background-color: transparent;
+            background-color: #fff;
             color: #333;
 
         }
@@ -89,11 +89,11 @@
 .fa-facebook-square{ color: #333;}
 
 .titulo_gg{font-family: 'Open Sans', sans-serif; font-size: 2.365em; line-height: 2.945rem;}
-.titulo_g{font-family: 'Open Sans', sans-serif; font-size: 1.465em; font-weight: 600; line-height: 1.945rem;}
+.titulo_g{font-family: 'Open Sans', sans-serif; font-size: 1.188em;  /* font-size: 1.465em;*/ font-weight: 600; line-height: 1.945rem;}
 .titulo_f{font-family: 'Open Sans', sans-serif; font-size: 1.165em; font-weight: 600; line-height: 1.945rem;}
-.texto_01{font-family: 'Open Sans', sans-serif; font-size: 1.015em; line-height: 1.645rem;}
-.texto_02{font-family: 'Open Sans', sans-serif; font-size: 1.015em; line-height: 1.445rem;}
-.texto_03{font-family: 'Open Sans', sans-serif; font-size: 0.955em; line-height: 1.645rem;}
+.texto_01{font-family: 'Open Sans', sans-serif; font-size: 1.000em; /*font-size: 1.015em;*/ line-height: 1.845rem;}
+.texto_02{font-family: 'Open Sans', sans-serif; font-size: 1.000em; line-height: 1.845rem;}
+.texto_03{font-family: 'Open Sans', sans-serif; font-size: 1.000em; line-height: 1.845rem;}
 .texto_04{font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 1.015em; line-height: 1.645rem;}
 .texto_05{font-family: 'Open Sans', sans-serif; font-size: 0.969em; line-height: 1.645rem;}
 p{ font-family: 'Open Sans', sans-serif; font-size: 1.045em;}
@@ -104,8 +104,8 @@ p{ font-family: 'Open Sans', sans-serif; font-size: 1.045em;}
 .bk_color_4{ background-color: #2BBBAD;}
 
 .cor_01{ color: #FFF;}
-.cor_02{ color: #2BBBAD;}
-.cor_03{ color: #9e9e9e;}
+.cor_02{ color: #1f98a0;}
+.cor_03{ color: #404041;}
 .cor_04{ color: #666666;}
 
 .form3{ margin: 0 0 0;}

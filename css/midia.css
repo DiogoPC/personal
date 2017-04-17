@@ -110,15 +110,21 @@
 
 
 @media screen and (min-width: 1889px) and (max-width: 2199px) {
-  .no_961{ display: none;} 
- .nodesk{ display: none}
- .no_1280{ display: none;} 
+   .no_961{ display: none;} 
+   .nodesk{ display: none}
+   .no_1280{ display: none;} 
+  
+  /*INDEX*/
+    .ajust_61{ margin: 2% 0 0;}
+    .ajs_20{ margin: 4% 0 0;} 
+
 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
     background-size: 10768px 7350px;
     background-position: 25% -270px;
+    padding-bottom: 9%;
 
     
     -webkit-background-size: cover;
@@ -137,12 +143,69 @@
       background-image: url(../img/8.jpg);
       background-size: 10768px 7350px;
       background-position: 50% -470px;
-      
+      padding-bottom: 10%;      
+
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+      } 
+
+/*PREVENCAO*/
+    .conteudo_9{ width: 100%; height: auto; 
+    background-image: url(../img/91.jpg);
+    background-size: 10768px 7350px;
+    background-position: 50% -20px;
+    padding-bottom: 10%;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
       background-size: cover;
-    } 
+  }
+  
+  .ajust_35{ margin: 3% 1.5% 0;}
+
+      /*CORPO MEDICO*/   
+        .conteudo_7{ width: 100%; height: auto; 
+          background-image: url(../img/36.jpg);
+          background-size: 10768px 7350px;
+          background-position: 50% 0px;
+          padding-bottom: 5%;
+          
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+        }   
+
+      /*NAMIDIA*/
+      .conteudo_15{ width: 100%; height: auto; 
+      background-image: url(../img/40.jpg);
+      background-size: 10768px 7350px;
+      background-position: 50% 0px;
+      padding-bottom: 9%;
+
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+      } 
+
+      /*FALE CONOSCO*/
+        .conteudo_12{ width: 100%; height: auto; 
+          background-image: url(../img/90.jpg);
+          background-size: 10768px 7350px;
+          background-position: 50% -50px;
+          padding-bottom: 9%;
+          
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+        }
+
+
 }
 
 
@@ -151,6 +214,8 @@
    .no_961{ display: none;}
   .nodesk{ display: none}
  .no_1280{ display: none;} 
+   /*INDEX*/
+  .ajs_20{ margin: 4% 0 0;} 
 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
@@ -188,7 +253,8 @@
    .no_961{ display: none;}
  .nodesk{ display: none}
  .no_1280{ display: none;} 
-
+  /*INDEX*/
+  .ajs_20{ margin: 5% 0 0;} 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
@@ -226,7 +292,8 @@
  .no_961{ display: none;}
  .nodesk{ display: none}
  .no_1280{ display: none;} 
-
+  /*INDEX*/
+  .ajs_20{ margin: 5% 0 0;} 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
@@ -263,7 +330,8 @@
    .no_961{ display: none;}
   .nodesk{ display: none}
   .no_1280{ display: none;} 
-
+  /*INDEX*/
+  .ajs_20{ margin: 5% 0 0;} 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
@@ -288,7 +356,8 @@
   .no_961{ display: none;} 
  .nodesk{ display: none}
  .no_1280{ display: none;} 
-
+  /*INDEX*/
+  .ajs_20{ margin: 5% 0 0;} 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
@@ -311,7 +380,8 @@
 @media screen and (min-width: 1371px) and (max-width: 1439px) {
  .nodesk{ display: none}
  .no_1280{ display: none;} 
-
+  /*INDEX*/
+  .ajs_20{ margin: 6% 0 0;} 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
@@ -332,6 +402,8 @@
  .nodesk{ display: none}
  .no_1280{ display: none;} 
 
+  /*INDEX*/
+  .ajs_20{ margin: 6% 0 0;} 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
@@ -351,15 +423,19 @@
 
 
 @media screen and (min-width: 1280px) and (max-width: 1300px) {
- .no_961{ display: none;}  
-.nodesk{ display: none}
-.no_1280{ display: none;}
+   .no_961{ display: none;}  
+   .nodesk{ display: none}
+   .no_1280{ display: none;}
+
+  /*INDEX*/
+  .ajs_20{ margin: 6% 0 0;} 
 
   /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
     background-size: 10768px 7350px;
-    background-position: 50% -120px;
+    background-position: 100% -120px;
+    padding-bottom: 5%;
 
     
     -webkit-background-size: cover;
@@ -368,11 +444,59 @@
       background-size: cover;
     }
 
+   /*LABORATORIO*/
+    .conteudo_3{ width: 100%; height: auto; 
+      background-image: url(../img/8.jpg);
+      background-size: 10768px 7350px;
+      background-position: 100% -250px;
+      padding-bottom: 7%;
+
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+    } 
 
    .ajust_21{ margin: 20% 6% 0;}
 
-  /*CORPO MEDICO*/
+    /*CORPO MEDICO*/   
+    .conteudo_7{ width: 100%; height: auto; 
+      background-image: url(../img/36.jpg);
+      background-size: 10768px 7350px;
+      background-position: 100% 0px;
+    
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+    }  
         .ajs_08{ margin: 2.5% 0 0;}   
+      /*PREVENCAO*/
+          .conteudo_9{ width: 100%; height: auto; 
+          background-image: url(../img/91.jpg);
+          background-size: 10768px 7350px;
+          background-position: 100% 20px;
+          padding-bottom: 7%;
+          
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+        }
+
+      /*FALE CONOSCO*/
+        .conteudo_12{ width: 100%; height: auto; 
+          background-image: url(../img/90.jpg);
+          background-size: 10768px 7350px;
+          background-position: 50% 40px;
+          padding-bottom: 5%;
+
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+        }
 
 
 }
@@ -380,12 +504,14 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1279px) {
  .no_1280{display: none;}
-
+  /*INDEX*/
+  .ajs_20{ margin: 6% 0 0;} 
    /*A CLINICA*/
     .conteudo_1{ width: 100%; height: auto; 
     background-image: url(../img/7.jpg);
     background-size: 10768px 7350px;
-    background-position: 25% -160px;
+    background-position: 100% -120px;
+    padding-bottom: 5%;
 
     
     -webkit-background-size: cover;
@@ -398,24 +524,78 @@
     .ajust_21{ margin: 18% 3% 0;} 
 
 
- .conteudo_3{ width: 100%; height: auto; 
-    background-image: url(../img/8.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -290px;
-    
+   /*LABORATORIO*/
+    .conteudo_3{ width: 100%; height: auto; 
+      background-image: url(../img/8.jpg);
+      background-size: 10768px 7350px;
+      background-position: 100% -250px;
+      padding-bottom: 7%;
+
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
       background-size: cover;
- }
+    } 
+
   /*CORPO MEDICO*/
-        .ajs_08{ margin: 2.5% 0 0;}    
+     .conteudo_7{ width: 100%; height: auto; 
+      background-image: url(../img/36.jpg);
+      background-size: 10768px 7350px;
+      background-position: 100% 20px;
     
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+    } 
+ 
+        .ajs_08{ margin: 2.5% 0 0;}    
+
+        /*PREVENCAO*/
+          .conteudo_9{ width: 100%; height: auto; 
+          background-image: url(../img/91.jpg);
+          background-size: 10768px 7350px;
+          background-position: 100% 20px;
+          padding-bottom: 7%;
+          
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+        }  
+      /*NAMIDIA*/
+      .conteudo_15{ width: 100%; height: auto; 
+      background-image: url(../img/40.jpg);
+      background-size: 10768px 7350px;
+      background-position: 50% 0px;
+      
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+      }   
+        /*FALE CONOSCO*/
+        .conteudo_12{ width: 100%; height: auto; 
+          background-image: url(../img/90.jpg);
+          background-size: 10768px 7350px;
+          background-position: 100% -40px;
+          padding-bottom: 5%;
+
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+            background-size: cover;
+        }            
+
 }
 
 
 
 @media screen and (min-width: 1025px) and (max-width: 1199px) {
+   /*INDEX*/
+  .ajs_20{ margin: 0 0 0;} 
   /*GERAL*/
    .no_961{ display: none;}
    .ver_1024{ display: block;} 
@@ -488,6 +668,7 @@
    .ajust_07{ margin: 0 15% 0;}
    .ajs_19{ width: 40%; margin: 0 30% 0;}
   /*INDEX*/
+  .ajs_20{ margin: 0 0 0;} 
   .ajs_13{ margin: 6.7% 0 0;}
 
       .carousel-caption_01 {
@@ -550,6 +731,7 @@
    .corrige_01{ text-align: left;} 
    .ajs_19{ width: 40%; margin: 0 30% 0;}
   /*INDEX*/
+   .ajs_20{ margin: 0 0 0;} 
    .ajs_13{ margin: 6.7% 0 0;}
 
       .carousel-caption_01 {
@@ -614,13 +796,16 @@
     .no_facebook{ display: none;}
     .navbar{ background-color: #FFF;}
     .cont_lg{ width: 20%;} 
+    .ver_facebook{ display: none;}
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
     .ajs_13{ margin: 9% 0 0;}
-    footer{ padding: 0.4%;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
  /*INDEX*/
+      .ajs_20{ margin: 0 0 0;}
        .icone_03{ padding: 1.5%;}
     /*A CLINICA*/
         .conteudo_1{ width: 100%; height: auto; 
@@ -667,13 +852,16 @@
     .no_facebook{ display: none;}
     .navbar{ background-color: #FFF;}
     .cont_lg{ width: 16%;} 
+    .ver_facebook{ display: none;}
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
-    .ajs_10{ float: right; margin-top: -6%;}
+    .ajust_07{ margin: 3% 0 0;}
+    .ajs_10{ float: right; margin-top: -4.5%;}
     .ajs_13{ margin: 9% 0 0;}
-    footer{ padding: 0.4%;}
+    .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
  /*INDEX*/
+      .ajs_20{ margin: -1% 0 0;}
        .icone_03{ padding: 1.5%; font-size: 0.955em;}
       /*A CLINICA*/
         .conteudo_1{ width: 100%; height: auto; 
@@ -723,12 +911,14 @@
     .cont_lg{ width: 16%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
-    .ajs_10{ float: right; margin-top: -6%;}
+    .ajust_07{ margin: 3% 0 0;}
+    .ajs_10{ float: right; margin-top: -5%;}
     .ajs_13{ margin: 9% 0 0;}
-    footer{ padding: 0.4%;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
    /*INDEX*/
        .icone_03{ padding: 1.5%; font-size: 0.955em;}
+       .ajs_20{ margin: -1% 0 0;}
     /*A CLINICA*/
         .conteudo_1{ width: 100%; height: auto; 
           background-image: url(../img/7.jpg);
@@ -793,11 +983,12 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
-    .ajs_13{ margin: 9% 0 0;}
-    footer{ padding: 0.4%;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
  /*INDEX*/
+       .ajs_20{ margin: 0 0 0;}
        .icone_03{ padding: 1.5%; font-size: 0.955em;}
   /*A CLINICA*/
         .conteudo_1{ width: 100%; height: auto; 
@@ -864,12 +1055,13 @@
     .cont_lg{ width: 18%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
     .ajs_13{ margin: 9% 0 0;}
-    .ajs_18{ padding: 13%;}
-    footer{ padding: 0.4%;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
   /*INDEX*/
+      .ajs_20{ margin: 0 0 0;} 
        .icone_03{ padding: 1.5%; font-size: 0.955em;} 
        .ajust_67{ width: 30%; margin: 0 2% 0;} 
    /*A CLINICA*/
@@ -938,12 +1130,13 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
     .ajs_13{ margin: 9% 0 0;}
-    .ajs_18{ padding: 13%;}
-    footer{ padding: 0.4%;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
  /*INDEX*/
+      .ajs_20{ margin: -0.8% 0 0;}
        .icone_03{ padding: 1.5%; font-size: 0.955em;} 
        .ajust_67{ width: 30%; margin: 0 2% 0;}
   /*A CLINICA*/
@@ -1013,13 +1206,16 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
     .ajs_13{ margin: 9% 0 0;}
-    .ajs_18{ margin: 0 3% 0;}
+    .ajs_18{ margin: 0 42% 0; text-align: center;}
     .texto_03{ font-size: 1.098em;}
     .ver_facebook{ display: none;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
  /*INDEX*/
+      .ajs_20{ margin: 0.8% 0 0;}     
        .icone_03{ padding: 1.5%; font-size: 0.855em;}  
       .ajust_67{ width: 30%; margin: 0 2% 0;}   
   /*A CLINICA*/
@@ -1134,12 +1330,15 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -5%;}
     .ajs_18{ margin: 0 3% 0;}
     .texto_03{ font-size: 1.098em;}
     .ver_facebook{ display: none;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}    
   /*INDEX*/
+    .ajs_20{ margin: 1% 0 0;} 
     .icone_03{ padding: 1.5%; font-size: 0.855em;}  
     .ajust_67{ width: 30%; margin: 0 2% 0;}
   /*A CLINICA*/
@@ -1255,11 +1454,14 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
     .ajs_18{ margin: 0 3% 0;}
     .ver_facebook{ display: none;}
+       .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
  /*INDEX*/
+        .ajs_20{ margin: 1% 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .icone_03{ width: 100%; padding: 3%;}
@@ -1382,10 +1584,12 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -6%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
 /*INDEX*/
+        .ajs_20{ margin: 1% 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .icone_03{ width: 100%; padding: 3%;} 
@@ -1418,7 +1622,7 @@
         .conteudo_3{ width: 100%; height: auto; 
             background-image: url(../img/8.jpg);
             background-size: 10768px 7350px;
-            background-position: 25% -90px;
+            background-position: 100% -90px;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -1506,8 +1710,8 @@
     .cont_lg{ width: 20%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
-    .ajs_10{ float: right; margin-top: -5%;}
+    .ajust_07{ margin: 3% 0 0;}
+    .ajs_10{ float: right; margin-top: -6%;}
     .ajs_18{ margin: 0 3% 0;}
     .ver_facebook{ display: none;}
     .texto_03{ font-size: 0.964em;}
@@ -1544,7 +1748,7 @@
         .conteudo_3{ width: 100%; height: auto; 
             background-image: url(../img/8.jpg);
             background-size: 10768px 7350px;
-            background-position: 25% -90px;
+            background-position: 100% -80px;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -1649,11 +1853,12 @@
     .cont_lg{ width: 25%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -7%;}
     .ajs_18{ margin: 0 3% 0;}
     .ver_facebook{ display: none;}
 /*INDEX*/
+        .ajs_20{ margin: 4% 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .icone_03{ width: 100%; padding: 3%;}
@@ -1683,9 +1888,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -130px;
+            padding-bottom: 30%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -1795,10 +2001,12 @@
     .cont_lg{ width: 28%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -8%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
        /*INDEX*/
+        .ajs_20{ margin: 5% 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .icone_03{ width: 100%; padding: 3%;}
@@ -1828,9 +2036,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -60px;
+            padding-bottom: 30%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -1948,10 +2157,12 @@
     .cont_lg{ width: 30%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -10%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
   /*A CLINICA*/
+        .ajs_20{ margin: 5% 0 0;}
         .ajust_02{ width: 98%;}
         .ajust_05{ width: 100%; margin: 0 0 0;} 
         .ajust_06{ margin: 4% 0 0;}
@@ -1975,9 +2186,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -60px;
+            padding-bottom: 30%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -2089,9 +2301,10 @@
     .cont_lg{ width: 32%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -10%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
       /*INDEX*/
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
@@ -2122,9 +2335,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -60px;
+            padding-bottom: 30%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -2238,9 +2452,10 @@
     .cont_lg{ width: 35%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -12%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
   /*INDEX*/
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
@@ -2271,9 +2486,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -60px;
+            padding-bottom: 30%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -2384,16 +2600,17 @@
     .cont_lg{ width: 35%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -11%;}
     .ajs_13{ margin: 17% 0 0;}
-    .ajs_18{ margin: 0 3% 0;}
-
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
 
     .content{ position: relative; width: 100%; float: left;}
 
     .content img{ width: 100%;}
      /*INDEX*/
+     .ajs_20{ margin: 0 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .icone_03{ width: 100%; padding: 3%;}
@@ -2451,9 +2668,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -60px;
+            padding-bottom: 20%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -2563,10 +2781,12 @@
     .cont_lg{ width: 35%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -12%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
     /*INDEX*/
+        .ajs_20{ margin: 0 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .icone_03{ width: 100%; padding: 3%;}
@@ -2595,9 +2815,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -60px;
+            padding-bottom: 20%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -2681,6 +2902,9 @@
       .ajust_47{ width: 100%; margin: 0 0 0;}
       .ajust_48{ width: 100%; margin: 0 0 0;}
 
+      .ajust_57{ text-align: justify;}
+      .ajust_58{ width: 100%; margin: 10% 0 0;}
+      .ajust_59{ width: 100%; margin: 10% 0 0;}
 
       /*FALE CONOSCO*/
         .conteudo_12{ width: 100%; height: auto; 
@@ -2707,11 +2931,13 @@
     .cont_lg{ width: 35%;} 
     .no_961{ display:block;}
     .grid_2{ width: 40%; margin: 0 0 0;}
-    .ajust_07{ margin: 10% 0 0;}
+    .ajust_07{ margin: 3% 0 0;}
     .ajs_10{ float: right; margin-top: -11%;}
-    .ajs_18{ margin: 0 3% 0;}
+   .ajs_18{ margin: 0 35% 0; text-align: center;}
+    footer{ padding: 0 ;}
   
   /*INDEX*/
+        .ajs_20{ margin: 0 0 0;}
         .ajs_15{ padding: 3%;}
         .ajust_64{ text-align: center;}
         .ajust_67{ margin: 0 0 0;}
@@ -2742,9 +2968,10 @@
 
       /*LABORATÃ“RIO*/
         .conteudo_3{ width: 100%; height: auto; 
-            background-image: url(../img/8.jpg);
-            background-size: 10768px 7350px;
-            background-position: 25% 0px;
+            background-image: url(../img/laboratorio.jpg);
+            background-size: 960px 1300px;
+            background-position: 100% -30px;
+            padding-bottom: 20%;
             
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -2814,9 +3041,9 @@
 
 /*NAMIDIA*/
       .conteudo_15{ width: 100%; height: auto; 
-      background-image: url(../img/44.jpg);
+      background-image: url(../img/40.jpg);
       background-size: 10768px 7350px;
-      background-position: 50% 0px;
+      background-position: 0 0px;
       
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -2824,10 +3051,15 @@
         background-size: cover;
       }   
       
-      .ajust_44{ margin: 4% 0 0;}
+      .ajust_44{ margin: 5% 0 0; padding-bottom: 4%; text-align: center;}
       .ajust_46{ width: 100%;}
       .ajust_47{ width: 100%; margin: 0 0 0;}
       .ajust_48{ width: 100%; margin: 0 0 0;}
+      .ajust_57{ text-align: justify;}
+      .ajust_58{ width: 100%; margin: 10% 0 0;}
+      .ajust_59{ width: 100%; margin: 10% 0 0;}
+
+
 
 
       /*FALE CONOSCO*/
