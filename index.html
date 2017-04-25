@@ -11,10 +11,31 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/midia.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+   
+    <link rel="icon" href="img/personal.ico" sizes="32x32">
+    <link rel="icon" href="img/personal.ico" sizes="48x48"> 
+    <link rel="icon" href="img/personal.ico" sizes="64x64">
+    <link rel="icon" href="img/personal.ico" sizes="128x128"> 
+
+    <!-- iPad iOS7+ com Retina Display -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/personal.png">
+    <!-- iPad iOS7- com Retina Display -->
+    <link rel="apple-touch-icon" sizes="144x144" href="img/personal.png">
+    <!-- iPhone iOS7+ com Retina Display -->
+    <link rel="apple-touch-icon" sizes="120x120" href="img/personal.png">
+    <!-- iPhone iOS7- com Retina Display -->
+    <link rel="apple-touch-icon" sizes="114x114" href="img/personal.png">
+    <!-- iPad iOS7+ sem retina display e iPad Mini-->
+    <link rel="apple-touch-icon" sizes="76x76" href="img/personal.png">
+    <!-- iPad iOS7- sem retina display  -->
+    <link rel="apple-touch-icon" sizes="72x72" href="img/personal.png">
+    <!-- iPhone iOS7-, iPod Touch e Android 2.2+  -->
+    <link rel="apple-touch-icon" href="img/personal.png">
 
    <script>
     // Picture element HTML5 shiv
@@ -29,7 +50,7 @@
     <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
         <div class="container">
             
-           <div class="cont_lg"> 
+           <div class="cont_lg animated wow fadeInLeft"> 
                 <a href="index" target="_top"> 
                     <img class="logo" src="img/logo_personal.png" alt="Personal Oncologia de Precisão e Personalizada - Belo Horizonte - MG" /></a>
             </div> 
@@ -48,19 +69,20 @@
             <div class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto ajust_07">
                     <li class="nav-item active"><a href="index" target="_top" class="nav-link">INÍCIO<span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a href="aclinica" target="_top" class="nav-link">CLÍNICA</a></li>
+                    <li class="nav-item"><a href="clinica" target="_top" class="nav-link">CLÍNICA</a></li>
                     <li class="nav-item"><a href="laboratorio" target="_top" class="nav-link">LABORATÓRIO</a></li>
                     <li class="nav-item"><a href="equipe" target="_top" class="nav-link">EQUIPE</a></li>
                     <li class="nav-item"><a href="prevencao" target="_top" class="nav-link">PREVENÇÃO</a></li>
                     <li class="nav-item"><a href="midia" target="_top" class="nav-link">MÍDIA</a></li>
-                    <li class="nav-item"><a href="faleconosco" target="_top" class="nav-link">FALE CONOSCO</a></li>
+                    <li class="nav-item"><a href="contato" target="_top" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
-                <div class="no_facebook"> 
+                <!--div class="no_facebook"> 
                     <a href="https://www.facebook.com/personaloncologia/?fref=ts" target="_new">
                     <i class="fa fa-facebook-square fa-2x cor_03" aria-hidden="true"></i></a>
-                </div> 
+                </div--> 
+
         </div><!--fin container-->
     </nav><!--/.Navbar-->
 
@@ -71,7 +93,6 @@
                 <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-2" data-slide-to="1"></li>
                 <li data-target="#carousel-example-2" data-slide-to="2"></li>
-                <li data-target="#carousel-example-2" data-slide-to="3"></li>
             </ol>
             <!--fin Indicators-->
             <div class="carousel-inner" role="listbox">
@@ -80,6 +101,7 @@
 
                         <picture>
                             <!--source srcset="examples/images/extralarge.jpg" media="(min-width: 1000px)"-->
+                            <source srcset="img/44.jpg" media="(min-width: 2200px)">
                             <source srcset="img/slider/medium.jpg" media="(min-width: 415px) and ( max-width:479)">
                             <source srcset="img/slider/medium.jpg" media="(max-width: 414px)">
                             <source srcset="img/slider/medium.jpg" media="(max-width: 375px)">
@@ -101,6 +123,7 @@
                 <div class="carousel-item ajs_13">
                     <div class="content">
                         <picture>
+                            <source srcset="img/77.jpg" media="(min-width: 2200px)">
                             <source srcset="img/slider/medium_02.jpg" media="(min-width: 415px) and ( max-width:479)">
                             <source srcset="img/slider/medium_02.jpg" media="(max-width: 414px)">
                             <source srcset="img/slider/medium_02.jpg" media="(max-width: 375px)">
@@ -115,10 +138,7 @@
                     <div class="carousel-caption_01 al_04 cor_02">
                         <!--p class="titulo_gg"><u>Um paciente,</u><br> um perfil genético,<br> um tratamento</p-->
                     </div>
-                </div>
-                <!--fin carousel-item-->
-
-
+                </div><!--fin carousel-item-->
 
                 <div class="carousel-item ajs_13">
                     <div class="content">
@@ -139,7 +159,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item ajs_13">
+                <!--div class="carousel-item ajs_13">
                     <div class="content">
                         <picture>
                             <source srcset="img/slider/medium_04.jpg" media="(min-width: 415px) and ( max-width:479)">
@@ -152,11 +172,11 @@
 
                     </div>
                     <!--fin content-->
-                    <div class="carousel-caption">
+                    <!--div class="carousel-caption">
                         <!--h3 class="h3-responsive">Opcão de texto</h3>
                     <p>Opcão de texto</p-->
-                    </div>
-                </div>
+                    <!--/div>
+                </div-->
             </div>
             <!--/.Slides-->
             <!--Controls-->
@@ -177,24 +197,21 @@
 <div class="conteudo_17 ajust_60">
     <div class="container_01">
 
-      <p class="al_01 titulo_g cor_02 ajs_15">PRIMEIRA CLÍNICA ONCOLÓGICA DE PRECISSÃO E PERSONALIZADA DO BRASIL</p>
-      <p class="al_01 titulo_g cor_03 ajs_15"> O futuro da oncologia é presente em Belo Horizonte</p>
+      <p class="al_01 titulo_g cor_02 ajs_15 animated wow fadeInUp">PRIMEIRA CLÍNICA ONCOLÓGICA DE PRECISSÃO E PERSONALIZADA DO BRASIL</p>
+      <p class="al_01 titulo_g cor_03 ajs_15 animated wow fadeInUp"> O futuro da oncologia é presente em Belo Horizonte</p>
 
       <div class="grid_14 ajust_61">
 
         <div class="grid_15">
-            <!--p class="titulo_g cor_02 al_02 ajust_64 bk_color_2">NOSSOS DIFERENCIAIS</p-->
 
-
-
-                <div class="grid_15">
+                <div class="grid_15 animated wow fadeInDown">
                     <div class="icone_03 ajust_67">
                     <div class="icone_02 ajust_65">  
                         <img src="img/icones/soro.png" />
                     </div>
 
                     <p class="al_01 titulo_g cor_02 ajust_66"> </p>
-                    <p class="al_02 texto_03 cor_03 ajs_17">Tratamento oncológico de precisão e personalizado em hospital-dia</p>  
+                    <p class="al_01 texto_03 cor_03 ajs_17">Tratamento oncológico de precisão e personalizado em hospital-dia</p>  
                     </div><!--fin grid_5-->
 
             
@@ -205,7 +222,7 @@
                     </div>
 
                     <p class="al_01 titulo_g cor_02 ajust_66"> </p>
-                    <p class="al_02 texto_03 cor_03 ajs_16">Laboratório avançado de genética molecular</p>  
+                    <p class="al_01 texto_03 cor_03 ajs_16">Laboratório avançado de genética molecular</p>  
                     </div><!--fin grid_5-->
 
 
@@ -215,20 +232,20 @@
                     </div>
 
                     <p class="al_01 titulo_g cor_02 ajust_66"> </p>
-                    <p class="al_02 texto_03 cor_03 ajs_17">Exames propedéuticos endoscópicos, de imagem e cirurgia ambulatorial</p>    
+                    <p class="al_01 texto_03 cor_03 ajs_17">Exames propedéuticos endoscópicos, de imagem e cirurgia ambulatorial</p>    
                     </div><!--fin grid_5--> 
                 </div><!--fin grid_15-->
 
 
 
-                 <div class="grid_15">
+                 <div class="grid_15 animated wow fadeInDown">
                      <div class="icone_03 ajust_67">
                     <div class="icone_02 ajust_65">  
                         <img src="img/icones/verificar.png" />
                     </div>
 
                     <p class="al_01 titulo_g cor_02 ajust_66"> </p>
-                    <p class="al_02 texto_03 cor_03">Check up oncológico personalizado baseado em avaliação de risco genético/ambiental</p>  
+                    <p class="al_01 texto_03 cor_03">Check up oncológico personalizado baseado em avaliação de risco genético/ambiental</p>  
                     </div><!--fin grid_5-->  
                                                 
                     <div class="icone_03 ajust_67">
@@ -252,7 +269,7 @@
                </div><!--fin grid_15-->
 
 
-               <div class="grid_15">
+               <div class="grid_15 animated wow fadeInDown">
                     <div class="icone_03 ajust_67">
                     <div class="icone_02 ajust_65">  
                         <img src="img/icones/user.png" />
@@ -315,14 +332,13 @@
                 <div class="col-lg-2 col-md-4 offset-lg-1 corrige_01 ajs_18">
                     <p class="titulo_f"><strong>NAVEGUE</strong></p>
                     <ul>
-                        <li><a href="inicio" target="_top">Início</a></li>
-                        <li><a href="aclinica" target="_top">Clínica</a></li>
+                        <li><a href="index" target="_top">Início</a></li>
+                        <li><a href="clinica" target="_top">Clínica</a></li>
                         <li><a href="laboratorio" translate="_top">laboratório</a></li>
                         <li><a href="equipe" target="_top">Equipe</a></li>
                         <li><a href="prevencao" target="_top">Prevenção</a></li>
                         <li><a href="midia" target="_top">Mídia</a></li>
-                        <li><a href="faleconosco" target="_top">Fale Conosco</a></li>
-                        <li><a href="#"></a>Facebook</li>
+                        <li><a href="contato" target="_top">Contato</a></li>
                     </ul>
                 </div>
                 <!--/.Second column-->
@@ -330,7 +346,7 @@
                 <hr class="hidden-md-up">
 
                 <div class="ajs_19">
-                        <div class="grid_15 ver_facebook">
+                        <div class="grid_15 ver_facebook ajs_23">
                             <p class="titulo_f"><strong>ACOMPANHE</strong></p>
 
 
@@ -350,7 +366,7 @@
         <!--Copyright-->
         <div class="footer-copyright">
             <div class="container-fluid">
-                <p class="texto_05">© 2017 Personal Oncologia de Precissão e Personalizada <a href="http://www.zayin.site"> | Zayin Agência Digital</a></p>
+                <p class="texto_05 ajs_24 ajust_68">© 2017 Personal Oncologia de Precissão e Personalizada <a href="http://www.zayin.site"> | Zayin Agência Digital</a></p>
 
             </div>
         </div>
@@ -365,6 +381,7 @@
     <script type="text/javascript" src="js/tether.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/wow.js"></script>
 
     <script>
        $('.carousel').carousel({
@@ -390,6 +407,25 @@
             js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script>
+            wow = new WOW(
+                {
+                    animateClass: 'animated',
+                    offset: 100,
+                    callback: function (box) {
+                        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                    }
+                }
+            );
+            wow.init();
+            document.getElementById('moar').onclick = function () {
+                var section = document.createElement('section');
+                section.className = 'section--purple wow fadeInDown';
+                this.parentNode.insertBefore(section, this);
+            };
+
     </script>
     
 
